@@ -33,7 +33,6 @@ const CybersecurityWebsite = () => {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
 
-      {/* Hero Section */}
       <div className="relative z-10 w-full min-h-screen flex items-center overflow-hidden pt-20">
         <div className="absolute inset-0 bg-grid-white/10 bg-grid-pattern" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent" />
@@ -58,7 +57,6 @@ const CybersecurityWebsite = () => {
               solutions powered by AI and advanced threat intelligence.
             </p>
 
-            {/* Threat Counter */}
             <div className="mb-12">
               <div className="relative inline-flex overflow-hidden rounded-full p-[2px] focus:outline-none">
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
@@ -72,7 +70,6 @@ const CybersecurityWebsite = () => {
               </div>
             </div>
 
-            {/* Action Buttons */}
             <div className="flex space-x-4 mb-12">
               {["Get Protected Now", "Watch Demo"].map((text, index) => (
                 <button
@@ -87,7 +84,6 @@ const CybersecurityWebsite = () => {
               ))}
             </div>
 
-            {/* Feature Cards */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               {[
                 { icon: Globe, title: "Global Threat Intelligence" },

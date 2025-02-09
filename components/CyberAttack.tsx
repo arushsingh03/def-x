@@ -36,7 +36,6 @@ const CyberAttackVisualization = () => {
 
   return (
     <div className="flex flex-col items-center">
-      {/* Attack Count Display */}
       <div className="mb-4 bg-black/50 px-6 py-2 rounded-full shadow-lg">
         <div className="flex items-center gap-2">
           <Globe className="w-5 h-5 text-[#E2CBFF] animate-pulse" />
@@ -46,15 +45,12 @@ const CyberAttackVisualization = () => {
         </div>
       </div>
 
-      {/* Visualization Container */}
       <div className="relative w-full h-96 bg-transparent rounded-lg overflow-hidden shadow-xl">
-        {/* Visualization Background */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(57,59,178,0.1),rgba(17,17,17,0.7))]" />
           <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(226,203,255,0.05),rgba(57,59,178,0.05))]" />
         </div>
 
-        {/* SVG Visualization */}
         <svg viewBox="0 0 100 100" className="absolute inset-0 w-full h-full">
           {attacks.map((attack) => (
             <g key={attack.id}>

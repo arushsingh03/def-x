@@ -22,7 +22,6 @@ const Footer = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-950" />
 
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 relative z-10">
-        {/* Company Info */}
         <div>
           <h2 className="text-2xl font-bold mb-4">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#E2CBFF] to-[#393BB2]">
@@ -47,7 +46,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-6">Quick Links</h3>
           <ul className="space-y-4">
@@ -65,7 +63,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-6">
             Contact Info
@@ -85,7 +82,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Newsletter */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-6">Newsletter</h3>
           <p className="text-gray-400 mb-4">
