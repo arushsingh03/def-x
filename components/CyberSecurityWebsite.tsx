@@ -1,15 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import {
-  Shield,
-  Lock,
-  AlertTriangle,
-  Activity,
-  Globe,
-  Server,
-  Database,
-} from "lucide-react";
+import { Activity, Globe, Server, Database } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import FAQSection from "./FAQSection";
 import Footer from "./Footer";

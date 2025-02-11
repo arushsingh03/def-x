@@ -15,7 +15,7 @@ const Hero = () => {
   const delta = 200;
 
   useEffect(() => {
-    let ticker = setInterval(() => {
+    const ticker = setInterval(() => {
       tick();
     }, delta);
 
